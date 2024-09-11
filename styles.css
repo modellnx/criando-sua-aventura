@@ -1,0 +1,110 @@
+/* Estilos gerais da página */
+Body {
+ background-color: #1D4221;
+ color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 300px;
+ margin: 0;
+ }
+ 
+ button {
+	  background-color: #64A712;
+	  color: white;
+      font-family: "Bai Jamjuree", sans-serif;
+ }
+
+/* No seu arquivo style.css */
+.passo img {
+  width: 100%; /* Ou defina uma largura específica */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Evita espaços em branco abaixo da imagem */
+}
+
+.passo p, .passo button {
+  position: relative; /* Garante que o texto e os botões fiquem acima da imagem se necessário */
+  z-index: 1; /* Define uma camada superior para o texto e os botões */
+}
+
+.passo {
+ display: none;
+ }
+ 
+ .passo.ativo{
+ display: block;
+ }
+
+
+.bai-jamjuree-extralight {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.bai-jamjuree-light {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bai-jamjuree-medium {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bai-jamjuree-bold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bai-jamjuree-extralight-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.bai-jamjuree-light-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.bai-jamjuree-regular-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bai-jamjuree-medium-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bai-jamjuree-semibold-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.bai-jamjuree-bold-italic {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
